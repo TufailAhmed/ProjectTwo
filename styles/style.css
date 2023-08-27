@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    /* background-color: red; */
+}
+.banner{
+    /* position: relative; */
+}
+.banner img{
+    width: 100%;
+    height: auto;
+  }
+.banner-text{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    padding:250px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    color: #ffffff;
+    font-size: 25px;
+    background-color:#FF5959;
+    border: none;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+/* donation section styles */
+.donate-today{
+    text-align: center;
+    margin:50px 250px
+}
+.donate-today h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.donate-today p{
+    margin-bottom: 5px;
+}
+.price{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+.price-tags{
+    border: 0 solid;
+    background-color: rgb(245, 240, 240);
+    font-size: 40px;
+    font-weight: 500;
+    color: #5c5656;
+    padding: 20px;
+}
+.price-tags-hightlighted{
+    border: 0 solid;
+    background-color: rgb(243, 166, 166);
+    font-size: 40px;
+    font-weight: 500;
+    color: #5c5656;
+    padding: 20px;
+    border-radius: 5px;
+}
+.price-last{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+/* donation plans styles here */
+.donation-plans{
+    margin: 150px 150px;
+    text-align: center;
+}
+.donation-plans-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.donation-plans-description{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 150px 50px;
+}
+.donation-cards{
+    display: flex;
+    gap: 40px;
+}
+.first-donation-card{
+    text-align: left;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #dbebec;
+}
+.second-donation-card{
+    text-align: left;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #f1d4d4;
+}
+.third-donation-card{
+    text-align: left;
+    border: 1px solid;
+    padding:  10px 20px 0;
+    background-color: #fdf7f7;
+}
+.third-donation-card img{
+    height: 30%;
+}
+/* their lives styles here */
+.their-lives{
+    display: flex;
+    gap: 40px;
+    margin:20px 150px;
+}
+
+.lives-text-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.lives-text-description{
+    font-size: 20px;
+}
+.lives-img img{
+    width: 456px;
+    height: 477px;
+}
+
+/* they need us section */
+.they-need{
+    display: flex;
+    gap: 40px;
+    margin:100px 150px;
+}
+.need-img img{
+    width: 456px;
+    height: 477px;
+}
+
+.subscription-form{
+    background-color: #f1d4d4;
+    padding: 30px;
+}
+.subscription-form input{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* footer section */
+.footer{
+    background-color: #0B0D17;
+    color: tomato;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 10px;
+    font-style: oblique;
+}
